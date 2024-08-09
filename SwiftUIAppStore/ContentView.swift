@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var isShowContent: Bool = false
     @State var selectedArticleIndex: Int?
+    
     @Namespace var nsArticle
     var body: some View{
         ZStack(alignment: .top) {
